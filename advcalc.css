@@ -1,0 +1,133 @@
+body{
+   -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  text-align:center;
+  height:100vh;
+  width:100vw;
+  margin:0;
+}
+h1{
+  font:1vh;
+}
+.case{
+  height:390px;
+  width:300px;
+  background-color:lightblue;
+  margin: auto;
+   border:1px solid black;
+}
+.row{
+  width:250px;
+  display:flex;
+
+  margin:auto;
+}
+.calc-btn{
+  flex:1;
+  border:1px solid black;
+  background-color:white;
+  height:45px;
+  font-size:30px;
+  line-height:45px;
+}
+.calc-btn:hover{
+  background-color:white;
+  color:black;
+}
+#calc-display-val{
+  height:50px;
+  width:250px;
+  color:white;
+  background-color:black;
+  text-align:right;
+  line-height:50px;
+  font-size:40px;
+  
+}
+#calc-clear{
+  flex:2;
+  padding-right:2px;
+
+}
+#calc-zero{
+  flex:2;
+  padding-right:2px;
+}
+#calc-roman{
+  font-size:20px;
+
+}
+#calc-binary{
+  font-size:20px;
+}
+#calc-hexadecimal{
+  font-size:20px;
+}
+@media screen and (min-width: 800px ) and (min-height:700px){
+  .case{
+  height:600px;
+  width:500px;
+}
+.row{
+  width:450px;
+}
+.calc-btn{
+  height:70px;
+  font-size:50px;
+  line-height:70px;
+}
+  #calc-display-val{
+  height:80px;
+  width:500px;
+  line-height:80px;
+  font-size:60px;
+}
+#calc-clear{
+  padding-right:2px;
+}
+#calc-zero{
+  padding-right:2px;
+}
+#calc-roman{
+  font-size:30px;
+}
+  #calc-binary{
+  font-size:30px;
+}
+#calc-hexadecimal{
+  font-size:30px;
+}
+}
+#float-bar{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width:100vw;
+}
+
+.bar{
+  text-decoration: none;
+  color:black;
+}
+ul{
+  display:flex;
+  text-decoration: none;
+  margin-right:35px;
+}
+li{
+  font-size:2em;
+  padding: 10px;
+  list-style: none;
+  color:white;
+}
+.bar:hover{
+  color:grey;
+}
